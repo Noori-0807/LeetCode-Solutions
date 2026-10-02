@@ -7,7 +7,6 @@ class Solution {
         if(hm.containsKey(val)){
             int current=hm.get(val);
             hm.put(val,current+1);
-
         }
         else{
             hm.put(val,1);
